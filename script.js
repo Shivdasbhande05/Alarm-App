@@ -4,7 +4,7 @@ const sec = document.getElementById("ss");
 const setTimeBtn = document.getElementById("set-button");
 const currenTimersTable = document.querySelector(".running-timers");
 
-const audioFile = new Audio("/audio files/alarm-clock-90867.mp3"); // adding audio file
+const audioFile = new Audio("alarm-clock-90867.mp3"); // adding audio file
 
 const clear = () => {
     hour.value = "";
